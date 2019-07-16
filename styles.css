@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  padding: 10px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+  body {
+    background-color: #CCB0FF;
+  }
+
+input {
+  text-align: center;
+  padding:10px;
+  border: 1px solid gray;
+}
+
+.story {
+  font-family: 'Muli', sans-serif;
+  color: #FFDEFF;
+  text-align: center;
+  width: 700px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px solid #CCB0FF;
+  font-size: 30px;
+}
+
+input:hover {
+  background-color: #FFDEFF;
+}
